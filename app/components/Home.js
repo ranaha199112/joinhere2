@@ -8,7 +8,7 @@ export default function Home({ posterId, adminId }) {
   Cookies.set("posterId", posterId);
 
   return (
-    <div className="container pt-[35px] flex flex-col items-center overflow-x-hidden ">
+    <div className="container pt-[35px] flex flex-col items-center overflow-x-hidden bg-red-500">
       <div className="w-[75%] md:w-full">
         <Image src={"/images/megapersonals.png"} alt="megaeprsonals" priority />
       </div>
