@@ -9,7 +9,7 @@ export default function Home({ posterId, adminId }) {
 
   return (
     <div className="container pt-[35px] flex flex-col items-center overflow-x-hidden">
-      <div className="w-[65%] lg:w-full">
+      <div className="w-[65%] md:w-full">
         <Image src={"/images/megapersonals.png"} alt="megaeprsonals" priority />
       </div>
 
