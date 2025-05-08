@@ -75,15 +75,15 @@ function LoginForm() {
                 />
               </div>
               <div className="flex flex-col items-center">
-                {/* <Image
+                <Image
                   src="/images/captures.jpeg"
                   alt="captcha"
                   width={228}
                   height={55}
                   className="mt-3"
-                /> */}
+                />
 
-                {/* <Field
+                <Field
                   className="mt-2 w-full  px-[12px] py-[1px] text-lg outline-none border-2 border-custom-gray4/70 focus:border-custom-blue2/60 focus:shadow-around-blue transition duration-300 rounded"
                   id="captcha"
                   name="captcha"
@@ -91,7 +91,7 @@ function LoginForm() {
                   autoComplete="on"
                   placeholder="Enter code from the picture"
                   required
-                /> */}
+                />
                 <button
                   type="submit"
                   // type="button"
